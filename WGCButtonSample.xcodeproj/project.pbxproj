@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E709E5AF6D0E13466057F0C /* libPods-WGCButtonSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CD20A0F7D6DD2FD96D95B6 /* libPods-WGCButtonSample.a */; };
+		4DC2E5F41E18DAD1004C40FD /* WGCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2E5F31E18DAD1004C40FD /* WGCButton.m */; };
+		4DC2E5F71E18E0F3004C40FD /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2E5F61E18E0F3004C40FD /* Right.png */; };
+		4DC2E5F91E18E0FC004C40FD /* Top.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2E5F81E18E0FC004C40FD /* Top.png */; };
+		4DC2E5FD1E18E10A004C40FD /* Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2E5FC1E18E10A004C40FD /* Left.png */; };
+		4DC2E5FF1E18EC74004C40FD /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2E5FE1E18EC74004C40FD /* Bottom.png */; };
 		4DCF66611E18A8950021F155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF66601E18A8950021F155 /* main.m */; };
 		4DCF66641E18A8950021F155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF66631E18A8950021F155 /* AppDelegate.m */; };
 		4DCF66671E18A8950021F155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF66661E18A8950021F155 /* ViewController.m */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DC2E5F21E18DAD1004C40FD /* WGCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCButton.h; sourceTree = "<group>"; };
+		4DC2E5F31E18DAD1004C40FD /* WGCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCButton.m; sourceTree = "<group>"; };
+		4DC2E5F61E18E0F3004C40FD /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right.png; sourceTree = "<group>"; };
+		4DC2E5F81E18E0FC004C40FD /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
+		4DC2E5FC1E18E10A004C40FD /* Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Left.png; sourceTree = "<group>"; };
+		4DC2E5FE1E18EC74004C40FD /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
 		4DCF665C1E18A8950021F155 /* WGCButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGCButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCF66601E18A8950021F155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DCF66621E18A8950021F155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,9 @@
 		4DCF666B1E18A8950021F155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCF666E1E18A8950021F155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCF66701E18A8950021F155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CD20A0F7D6DD2FD96D95B6 /* libPods-WGCButtonSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGCButtonSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C55A9CFB6FB72C4DDC2517 /* Pods-WGCButtonSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGCButtonSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGCButtonSample/Pods-WGCButtonSample.release.xcconfig"; sourceTree = "<group>"; };
+		E6DCC8A7DC8139C8410AB93B /* Pods-WGCButtonSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGCButtonSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGCButtonSample/Pods-WGCButtonSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E709E5AF6D0E13466057F0C /* libPods-WGCButtonSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC2E5F11E18DAD1004C40FD /* WGCButton */ = {
+			isa = PBXGroup;
+			children = (
+				4DC2E5F21E18DAD1004C40FD /* WGCButton.h */,
+				4DC2E5F31E18DAD1004C40FD /* WGCButton.m */,
+			);
+			path = WGCButton;
+			sourceTree = "<group>";
+		};
+		4DC2E5F51E18E0DF004C40FD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4DC2E5F81E18E0FC004C40FD /* Top.png */,
+				4DC2E5FC1E18E10A004C40FD /* Left.png */,
+				4DC2E5FE1E18EC74004C40FD /* Bottom.png */,
+				4DC2E5F61E18E0F3004C40FD /* Right.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		4DCF66531E18A8950021F155 = {
 			isa = PBXGroup;
 			children = (
+				4DC2E5F51E18E0DF004C40FD /* Resource */,
+				4DC2E5F11E18DAD1004C40FD /* WGCButton */,
 				4DCF665E1E18A8950021F155 /* WGCButtonSample */,
 				4DCF665D1E18A8950021F155 /* Products */,
+				6EC2D4DEF0D7BEDEB62C1C9C /* Pods */,
+				CE0DB96D09040980CA64D75E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +119,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6EC2D4DEF0D7BEDEB62C1C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6DCC8A7DC8139C8410AB93B /* Pods-WGCButtonSample.debug.xcconfig */,
+				B3C55A9CFB6FB72C4DDC2517 /* Pods-WGCButtonSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE0DB96D09040980CA64D75E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CD20A0F7D6DD2FD96D95B6 /* libPods-WGCButtonSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DCF66731E18A8950021F155 /* Build configuration list for PBXNativeTarget "WGCButtonSample" */;
 			buildPhases = (
+				8A27CAB978A8437CBEB44B6C /* [CP] Check Pods Manifest.lock */,
 				4DCF66581E18A8950021F155 /* Sources */,
 				4DCF66591E18A8950021F155 /* Frameworks */,
 				4DCF665A1E18A8950021F155 /* Resources */,
+				AFAC11BAD83BBC8AA1FD396A /* [CP] Embed Pods Frameworks */,
+				3940268E65865064A175E0A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,13 +198,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC2E5FF1E18EC74004C40FD /* Bottom.png in Resources */,
 				4DCF666F1E18A8950021F155 /* LaunchScreen.storyboard in Resources */,
+				4DC2E5F91E18E0FC004C40FD /* Top.png in Resources */,
+				4DC2E5FD1E18E10A004C40FD /* Left.png in Resources */,
 				4DCF666C1E18A8950021F155 /* Assets.xcassets in Resources */,
+				4DC2E5F71E18E0F3004C40FD /* Right.png in Resources */,
 				4DCF666A1E18A8950021F155 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3940268E65865064A175E0A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGCButtonSample/Pods-WGCButtonSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A27CAB978A8437CBEB44B6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAC11BAD83BBC8AA1FD396A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGCButtonSample/Pods-WGCButtonSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DCF66581E18A8950021F155 /* Sources */ = {
@@ -154,6 +266,7 @@
 				4DCF66671E18A8950021F155 /* ViewController.m in Sources */,
 				4DCF66641E18A8950021F155 /* AppDelegate.m in Sources */,
 				4DCF66611E18A8950021F155 /* main.m in Sources */,
+				4DC2E5F41E18DAD1004C40FD /* WGCButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +382,7 @@
 		};
 		4DCF66741E18A8950021F155 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DCC8A7DC8139C8410AB93B /* Pods-WGCButtonSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B7ERBCTM4Y;
@@ -281,6 +395,7 @@
 		};
 		4DCF66751E18A8950021F155 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C55A9CFB6FB72C4DDC2517 /* Pods-WGCButtonSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B7ERBCTM4Y;
@@ -310,6 +425,7 @@
 				4DCF66751E18A8950021F155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
